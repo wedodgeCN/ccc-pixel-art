@@ -18,7 +18,6 @@ let mySprite = sprites.create(img`
     . . . . . . . . . . . . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
-let x = 0
 ```
 
 
