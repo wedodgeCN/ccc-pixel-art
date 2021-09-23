@@ -3,41 +3,47 @@
 
 ```blocks
 let mySprite = sprites.create(img`
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
-    . . . . . . . . . . . . . . . . 
+    ..........ffff....
+    .......ffff776f...
+    ....fffcee776f....
+    ...fbbacee76bbf...
+    ..f44aafeefaa44f..
+    .f44a44bff444a44f.
+    f44b4444444444a44f
+    f44b4f44444f44a44f
+    f444fff444fff4444f
+    f44f5ff44f5ff4444f
+    f4444444f44444444f
+    f444444fff4444444f
+    f44ff4444444ff444f
+    .f44fffffffff444f.
+    ..f44fffffff444f..
+    ...f4444444444f...
+    ....ffffffffff....
     `, SpriteKind.Player)
-
-controller.moveSprite(mySprite)
-
-game.over(false)
-
-scene.onOverlapTile(SpriteKind.Player, assets.tile`transparency16`, function (sprite, location) {
-})
-scene.cameraFollowSprite(mySprite)
-tiles.setTilemap(tilemap`level1`)
-
-info.startCountdown(10)
-
-mySprite = 0
 ```
 
-```template
+```template 
+let mySprite = sprites.create(img`
+    ..........ffff....
+    .......ffff776f...
+    ....fffcee776f....
+    ...fbbacee76bbf...
+    ..f44aafeefaa44f..
+    .f44a44bff444a44f.
+    f44b4444444444a44f
+    f44b4f44444f44a44f
+    f444fff444fff4444f
+    f44f5ff44f5ff4444f
+    f4444444f44444444f
+    f444444fff4444444f
+    f44ff4444444ff444f
+    .f44fffffffff444f.
+    ..f44fffffff444f..
+    ...f4444444444f...
+    ....ffffffffff....
+    `, SpriteKind.Player)
 ```
-
 
 ## Step 1
 You've found the haunted maze in the **Castle of Code and Curiosities**! 
