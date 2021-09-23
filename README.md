@@ -21,9 +21,6 @@ let mySprite = sprites.create(img`
 let x = 0
 ```
 
-```template
-//
-```
 
  ## Step 1
  Time to create a spooky Halloween character using pixel art. To start, click the ``||sprites.Sprites||`` menu on the left and drag the ``||sprites.set mySprite to||`` block into the ``||loops.on start||`` container.
