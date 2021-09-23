@@ -158,7 +158,7 @@ Next, click the **gray box** inside the ``||scene.set background image||`` block
 Click **Done!** when you've found the perfect setting.
 
 ## Step 4
-Next, open the ``||sprites.Sprites||`` menu and find the ``||sprites.set mySprite to||`` block. Drag that into the ``||loops.on start||`` container, under the ``||scene.set background image||`` block.
+Next, open the ``||sprites.Sprites||`` menu and find the ``||variables.set mySprite to||`` block. Drag that into the ``||loops.on start||`` container, under the ``||scene.set background image||`` block.
 
 ## Step 5
 Click the **gray box** in this new block to open up the **Sprite Editor**. From here, you can create your own character. You can use tools like the **Pencil**, **Line**, or **Fill** to draw a spooky ghost, silly clown, or whatever you want.
