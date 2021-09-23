@@ -1,5 +1,6 @@
 {
     "name": "ccc-pixel-art",
+    "version": "1.0.0",
     "description": "",
     "dependencies": {
         "device": "*"
